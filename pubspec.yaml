@@ -1,0 +1,20 @@
+name: random_js_library
+description: Get a random Javascript framework name
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  random_words: ^1.0.2
+  url_launcher: ^5.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
